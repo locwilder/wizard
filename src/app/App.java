@@ -9,5 +9,9 @@ public class App {
         Person personLoc = new Person();
         personLoc.setName("Loc");        
         System.out.println("hello " + personLoc.getName());
+
+        Person personVisar = new Person();
+        personVisar.setName("Visar");
+        System.out.println("hello " + personVisar.getName());
     }
 }

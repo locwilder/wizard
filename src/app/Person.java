@@ -34,6 +34,7 @@ public class Person {
     public void breche_finger(int zu_brechende_finger){
         this.finger = getFinger()-zu_brechende_finger;
         this.gebrochenefinger = zu_brechende_finger;
+        
     }    
 
 }

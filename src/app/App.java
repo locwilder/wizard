@@ -13,5 +13,10 @@ public class App {
         Person personVisar = new Person();
         personVisar.setName("Visar");
         System.out.println("hello " + personVisar.getName());
+    
+        System.out.println( personLoc.getName() + " hat " + personLoc.getFinger()+" Finger.");
+
+        System.out.println(personVisar.getName() + " hat auch "+ personVisar.getFinger()+ " Finger.");
+    
     }
 }
